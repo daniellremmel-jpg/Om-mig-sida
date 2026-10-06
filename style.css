@@ -103,8 +103,11 @@ main {
   padding-left: 0.2rem;
 }
 
-.projekt summary:hover {
-  color: #38bdf8;
+.projekt summary:focus-visible,
+button:focus-visible {
+  outline: 0.188rem solid #38bdf8;
+  outline-offset: 0.188rem;
+  border-radius: 0.25rem;
 }
 
 .projekt p {
